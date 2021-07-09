@@ -7,11 +7,10 @@ for (statement 1; statement 2; statement 3) {
 
 */
 #include<iostream>
+#define f(n) for(int i=1;i<=n;i++){ cout<<i<<endl; }
 using namespace std;
 
 int main(){
 //int i;
-for(int i=1;i<=10;i++){
-    cout<<i<<endl;
-}
+  f(10)
 }
